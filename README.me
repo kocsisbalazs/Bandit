@@ -1,0 +1,19 @@
+# Bandit Bash Solutions
+
+A set of one-shot Bash scripts to automate OverTheWire Bandit levels. No fluff—just SSH commands, pipes and file parsing.
+
+## What this is
+
+Each script targets one Bandit level, logs in over SSH, extracts the password (via parsing, redirects, `grep`, `base64`, etc.) and hands it off to the next script. You get a reproducible chain from level 0 up.
+
+## Prerequisites
+
+You need:
+
+- A Unix-style shell (bash 4+).  
+- `ssh` client.  
+- Coreutils: `grep`, `tr`, `cut`, `base64`, `xxd`, `openssl`, `find`, `sed`, `awk`.
+
+## Repo layout
+
+Scripts live at the root:
