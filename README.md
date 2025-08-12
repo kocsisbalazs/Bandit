@@ -1,2 +1,0 @@
-# Bandit
-Overthewire bandit
